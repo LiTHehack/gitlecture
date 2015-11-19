@@ -20,7 +20,7 @@ $backgroundColor: #441D2B;
 $litheRed: #D01E4E;
 $lithePurple: #441D2B;
 
-$mainColor: #111;
+$mainColor: $litheRed;
 $headingColor: #fff;
 
 $mainFontSize: 38px;
@@ -49,3 +49,11 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+p strong {
+	color: darken( $mainColor, 20% );
+}
+
+.reveal section.left {
+  text-align: left;
+}
