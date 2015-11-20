@@ -20,7 +20,10 @@ $backgroundColor: #441D2B;
 $litheRed: #D01E4E;
 $lithePurple: #441D2B;
 
-$mainColor: $litheRed;
+// not lithehack but needed because shit projector
+$brighterRed: #ee90a9;
+
+$mainColor: $brighterRed;
 $headingColor: #fff;
 
 $mainFontSize: 38px;
