@@ -62,13 +62,32 @@
 
 				<section class="left">
 					<h2>Github</h2>
-					<p>Skapa ett repository på github.com</p>
-					<p>Kopiera länken du får</p>
-					<p>git remote add origin *länk*</p>
+					<p>Ha en remote till ditt projekt</p>
+					<p>Synka ("push" och "pull") commits<p>
 				</section>
 
 				<section>
 					<img src="img/gitAndGithubWorkflow.png">
+				</section>
+
+				<section>
+					<a href="https://github.com/LiTHehack/git-tips">https://github.com/LiTHehack/git-tips</a>
+					<pre><code class="bash" data-trim>
+						# kolla vilka filer som har ändringar sedan senaste commit
+git status
+
+# säg vilka filers ändringar du committar
+git add exempel.html
+
+# gör en commit med meddelandet "nice ny feature"
+git commit -m"nice ny feature"
+
+# pusha upp commits till remote
+git push
+
+# hämta commits från remote
+git pull
+					</code></pre>
 				</section>
 
 				<section>
